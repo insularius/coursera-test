@@ -1,7 +1,7 @@
- .row {
+.row {
   margin-bottom: 15px;
 }
-      .row > div {
+.row > div {
   border: 2px solid red;
   background-color: gray;
 }
