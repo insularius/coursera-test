@@ -1,0 +1,119 @@
+#include <iostream>
+using namespace std;
+int main() {
+    setlocale(0, "");
+	/*int a, p;
+	cout << "enter a = ";
+	cin >> a;
+	p = 4 * a;
+	cout << "p = " << p << endl;*/
+	
+	/*int a, s;
+	cout << "enter a = ";
+	cin >> a;
+	s = a * a;
+	cout << "s = "<< s << endl;*/
+
+	/*int a, b, S, P;
+	b = 4;
+	cout << "Enter a = ";
+	cin >> a;
+	S = a * b;
+	cout << "S = " << S << endl;
+	cout << "Enter a";
+	cin >> a;
+	P = 2 * (a + b);
+	cout << "P = " << P << endl;*/
+
+	/*int d;
+	double p, L;
+	p = 3.14;
+	cout << "Enter d = ";
+	cin >> d;
+	L = p * d;
+	cout << "L = " << L << endl;*/
+
+	/*int a, V, S;
+	cout << "Введите число а = ";
+	cin >> a;
+	V = pow(a, 3);
+	S = 6 * pow(a, 2);
+	cout << "V = " << V << "\tS = " << S << endl;*/
+
+	/*int a, b, c, V, S;
+	a = 4;
+	c = 5;
+	cout << "Введите число б = ";
+	cin >> b, c;
+	V = a * b * c;
+	S = 2 * (a * b + b * c + a * c);
+	cout << "V = " << V << "\tS = " << S << endl;*/
+
+	/*double L, S, R, p;
+	p = 3.14;
+	cout << "Введите радиус = ";
+	cin >> R;
+	R = L / (2p)
+	L = 2 * p * R;
+	S = p * pow(R, 2);
+	cout << "L = " << L << "\tS = " << S << endl;*/
+
+	/*int a, b, Ag;
+	a = 4;
+	cout << "b = ";
+	cin >> b;
+	Ag = (a + b) / 2;
+	cout << "Ag = " << Ag << endl;*/
+
+	/*double a, b, Ag;
+	a = 15;
+	b = 10;
+	Ag = sqrt(a*b);
+	cout << "Ag = " << Ag << endl;*/
+
+	/*double a, b, Ag_a, Ag_b;
+	a = 4;
+	b = 8;
+	Ag_a = pow(a, 2);
+	Ag_b = pow(b, 2);
+	cout << Ag_a + Ag_b << endl;
+	cout << Ag_a - Ag_b << endl;
+	cout << Ag_a * Ag_b << endl;
+	cout << Ag_a / Ag_b << endl;*/
+	
+	/*cout << "Ag_a = " << Ag_a << endl;
+	cout << "Ag_b = " << Ag_a << endl;
+	cout << "Sum = " << sum << endl;
+	cout << "razn = " << razn << endl;
+	cout << "proizv = " << proizv << endl;
+	cout << "chastn = " << chastn << endl;*/
+
+	/*double a, b, a_m, b_m;
+	a = 10;
+	b = 20;
+	a_m = abs(a);
+	b_m = abs(b);
+	cout << a_m + b_m << endl;
+	cout << a_m - b_m << endl;
+	cout << a_m * b_m << endl;
+	cout << a_m / b_m << endl;*/
+
+	double a, b, c, P, a2, b2;
+	a = 4;
+	b = 5;
+	a2 = pow(a, 2);
+	b2 = pow(b, 2);
+	c = sqrt(a2 + b2);
+	P = a + b + c;
+	cout << "C = " << sqrt(a2 + b2) << endl;
+	cout << "P = " << a + b + c << endl;
+
+
+
+
+	/*S = p*R(pow, R, 2)
+	R = sqrt(s/p)*/
+
+
+	
+}
