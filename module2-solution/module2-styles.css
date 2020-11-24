@@ -41,7 +41,7 @@ section {
 }
 
 #div_1 {
-  background-color: rgb(255, 192, 203);
+  background-color: #f199b3;
   width: 30%;
   border: 2px solid black;
   text-align: center;
@@ -55,7 +55,7 @@ section {
 }
 
 #div_2 {
-  background-color: rgb(250, 0, 0);
+  background-color: #c41e3a;
   width: 30%;
   border: 2px solid black;
   text-align: center;
@@ -65,10 +65,11 @@ section {
   margin-top: -2px;
   margin-left:70.4%;
   padding: 4px;
+  color: white;
 }
 
 #div_3 {
-  background-color: rgb(250, 255, 102);
+  background-color: #F0E68C;
   width: 30%;
   border: 2px solid black;
   text-align: center;
