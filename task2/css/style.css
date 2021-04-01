@@ -1,7 +1,30 @@
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+.mainmenubtn {
+    
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
 }
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
+.mainmenubtn:hover {
+    background-color: gray;
+    }
+    
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
 }
