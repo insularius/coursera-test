@@ -1,72 +1,81 @@
+ <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
-<table class="table table-bordered table-hover">
-  <thead>
+  </head>
+<input id="myInput" type="text" placeholder="Search">
+<table class="table table-bordered">
+<tbody id="myTable">
     <tr>
-      <th>ID</th>
-      <th>NAME</th>
-      <th>ROLE</th>
-      <th>ACTIVE</th>
-      
-        <button class="settings">Настройки</button>
-        <th><a class="button" href="#">Настройки</a></th>
-      </div>
-       
-   
-      
-
+        <td>ID</td>
+        <td>NAME</td>
+        <td>ROLE</td>
+        <td>ACTIVE</td>
+        <td>
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Настройки
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Удалить</a>
+                <a class="dropdown-item" href="#">Редактировать</a>
+                <a class="dropdown-item" href="#">Деактивировать</a>
+                </div>
+            </div>
+        </td>
+        <td>
+              <div class="dropdown">
+                <button class="settings">Настройки</button>
+                <div class="dropdown-child">
+                <a class="dropdown-item" href="#">Удалить</a>
+                <a class="dropdown-item"href="#">Редактировать</a>
+                <a class="dropdown-item" href="#">Деактивировать</a>
+                </div>
+            </div>
+        </td>
     </tr>
-  </thead>
-  <tbody>
     <tr>
-      <th scope="row">1</th>
+      <td>1</td>
       <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
+      <td>Blah</td>
+      <td>Blah</td>
+      <td>Blah</td>
+    </tr> 
     <tr>
-      <th scope="row">2</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@TwBootstrap</td>
-    </tr>
+      <td>2</td>
+      <td>Speedwagon</td>
+      <td>Marco</td>
+      <td>Blah</td>
+      <td>Blah</td>
+    </tr> 
     <tr>
-      <th scope="row">3</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
+      <td>3</td>
+      <td>DIO</td>
+      <td>Blah</td>
+      <td>Blah</td>
+      <td>Blah</td>
+    </tr> 
     <tr>
-      <th scope="row">4</th>
-      <td>Larry the Bird</td>
-      <td>Crichton</td>
-      <td>@twitter</td>
-    </tr>
-  
-  </tbody>
-</table>
-
-
-<div class="btn-group">
-  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Action
-  </button>
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Separated link</a>
-  </div>
-</div>
-
-</div>
-           
-<tbody>
-    <tr class='clickable-row' data-href='url://link-for-first-row/'>
-        <td>Blah Blah</td> <td>1234567</td> <td>£158,000</td>
-    </tr>
-    <tr class='clickable-row' data-href='url://some-other-link/'>
-        <td>More money</td> <td>1234567</td> <td>£800,000</td>
+      <td>4</td>
+      <td>Joseph</td>
+      <td>Blah</td>
+      <td>Blah</td>
+      <td>Blah</td>
+    </tr> 
+      <tr>
+      <th>5</th>
+      <td>Jotaro</td>
+      <td>Blah</td>
+      <td>Blah</td>
+      <td>Blah</td>
     </tr>
 </tbody>
+</table>​
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/dd.js"></script>
+
+
+
+
+
+
+
