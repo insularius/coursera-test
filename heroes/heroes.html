@@ -4,6 +4,73 @@
 <section>
 	
 </section>
+<table class="table table-bordered">
+<tbody id="myTable">
+    <tr>
+        <td>ID</td>
+        <td>NAME</td>
+        <td>ROLE</td>
+        <td>ACTIVE</td>
+        <td>
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Настройки
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Удалить</a>
+                <a class="dropdown-item" href="#">Редактировать</a>
+                <a class="dropdown-item" href="#">Деактивировать</a>
+                </div>
+            </div>
+        </td>
+        <td>
+              <div class="dropdown">
+                <button class="settings">Настройки</button>
+                <div class="dropdown-child">
+                <a class="dropdown-item" href="#">Удалить</a>
+                <a class="dropdown-item"href="#">Редактировать</a>
+                <a class="dropdown-item" href="#">Деактивировать</a>
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Mark</td>
+      <td>Blah</td>
+      <td>Blah</td>
+      <td>Blah</td>
+    </tr> 
+    <tr>
+      <td>2</td>
+      <td>Speedwagon</td>
+      <td>Marco</td>
+      <td>Blah</td>
+      <td>Blah</td>
+    </tr> 
+    <tr>
+      <td>3</td>
+      <td>DIO</td>
+      <td>Blah</td>
+      <td>Blah</td>
+      <td>Blah</td>
+    </tr> 
+    <tr>
+      <td>4</td>
+      <td>Joseph</td>
+      <td>Blah</td>
+      <td>Blah</td>
+      <td>Blah</td>
+    </tr> 
+      <tr>
+      <th>5</th>
+      <td>Jotaro</td>
+      <td>Blah</td>
+      <td>Blah</td>
+      <td>Blah</td>
+    </tr>
+</tbody>
+</table>​
 <script>
 	var header = document.querySelector('header');
 var section = document.querySelector('section');
@@ -31,11 +98,10 @@ function showHeroes(jsonObj) {
 
   for (var i = 0; i < heroes.length; i++) {
     var myArticle = document.createElement('article');
-    var myH2 = document.createElement('h2');
-    var myPara1 = document.createElement('p');
-    var myPara2 = document.createElement('p');
-    var myPara3 = document.createElement('p');
-    var myList = document.createElement('ul');
+    var myH2 = document.createElement('tr');
+    var myPara1 = document.createElement('td');
+    var myPara2 = document.createElement('td');
+    var myPara3 = document.createElement('td');
 
     myH2.textContent = heroes[i].name;
     myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
@@ -44,7 +110,7 @@ function showHeroes(jsonObj) {
 
     var superPowers = heroes[i].powers;
     for (var j = 0; j < superPowers.length; j++) {
-      var listItem = document.createElement('li');
+      var listItem = document.createElement('td');
       listItem.textContent = superPowers[j];
       myList.appendChild(listItem);
     }
