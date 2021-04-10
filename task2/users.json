@@ -1,0 +1,24 @@
+{
+  "id1": 9,
+  "name1": "star platinum",
+  "id2": 10,
+  "name2": "magician red",
+  "one": "Matrix",
+  "two": "Matrix2",
+  "three": "Matrix3",
+  "active": true,
+  "users": [
+    {
+      "id": 111,
+      "name": "Za Warudo"
+    },
+    {
+      "id": 112,
+      "name": "Magician Red"
+    },
+    {
+      "id": 113,
+      "name": "Star Platinum"
+    }
+  ]
+}
