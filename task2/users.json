@@ -6,7 +6,6 @@
   "one": "Matrix",
   "two": "Matrix2",
   "three": "Matrix3",
-  "active": true,
   "users": [
     {
       "id": 111,
