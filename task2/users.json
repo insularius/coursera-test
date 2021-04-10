@@ -1,12 +1,9 @@
 {
-  "id1": 9,
-  "name1": "star platinum",
-  "id2": 10,
-  "name2": "magician red",
-  "one": "Matrix",
-  "two": "Matrix2",
-  "three": "Matrix3",
-  "active": true,
+  "squadName" : "Super Hero Squad",
+  "homeTown" : "Metro City",
+  "formed" : 2016,
+  "secretBase" : "Super tower",
+  "active" : true,
   "users": [
     {
       "id": 111,
